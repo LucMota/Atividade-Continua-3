@@ -1,0 +1,130 @@
+###### AC 03 - Lucas Minhones Mota - RA : 1903895
+
+----
+
+## Comandos Git
+
+###### git config
+O __git config__ pode ser usado para definir valores de configuração 
+específicos do usuário como e-mail, algoritmo preferido para diff, 
+nome de usuário e formato de arquivo etc.
+
+###### git init
+Este comando é usado para criar um novo repositório GIT.
+
+###### git add
+O comando git add pode ser usado para adicionar arquivos ao índice. 
+
+###### git clone
+O comando git clone é usado para fins de verificação de repositório.
+
+###### git commit
+O comando git commit é usado para confirmar as alterações na cabeça. Tenha em atenção que quaisquer alterações efetuadas não irão para o repositório remoto. 
+
+###### git status
+O comando git status exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados.
+
+###### git push 
+Envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho.
+
+###### git checkout
+O comando git checkout pode ser usado para criar ramos ou alternar entre eles. 
+
+###### git remote
+O comando git remote permite que um usuário se conecte a um repositório remoto. 
+
+###### git branch
+O comando git branch pode ser usado para listar, criar ou excluir ramos.
+
+###### git pull
+Para mesclar todas as alterações presentes no repositório remoto para o diretório de trabalho local, o comando pull é usado.
+
+###### git merge
+O comando git merge é usado para mesclar uma ramificação no ramo ativo. 
+
+###### git diff
+O comando git diff é usado para listar os conflitos.
+
+###### git tag
+A marcação é usada para marcar compromissos específicos com alças simples. 
+
+###### git log
+Executar o comando git log exibe uma lista de compromissos em uma ramificação, juntamente com os detalhes pertinentes. 
+
+###### git reset
+Para redefinir o índice e o diretório de trabalho para o estado do último commit, o comando git reset é usado. 
+
+###### git rm
+git rm pode ser usado para remover arquivos do índice e do diretório de trabalho.
+
+###### git stash
+Ajuda a salvar as mudanças que não devem ser cometidos imediatamente, mas em uma base temporária. 
+
+###### git show
+Para visualizar informações sobre qualquer objeto git, use o comando git show. 
+
+###### git fetch
+git fetch permite que um usuário obtenha todos os objetos do repositório remoto que atualmente não residem no diretório de trabalho local. 
+
+###### git ls-tree
+Para exibir um objeto de árvore juntamente com o nome e o modo de cada item e o valor SHA-1 do blob, use o comando git ls-tree. 
+
+###### git cat-file
+Usando o valor SHA-1, exiba o tipo de um objeto usando o comando git cat-file. 
+
+###### git grep
+git grep permite que um usuário procure através das árvores de conteúdo frases e / ou palavras.
+
+###### gitk
+gitk é a interface gráfica para um repositório local que pode ser invocado digitando e executando: gitk
+
+###### git instaweb
+Com o comando git instaweb, um servidor web pode ser executado em interface com o repositório local. Um navegador da Web também é automaticamente direcionado para ele.
+
+###### git gc
+Para otimizar o repositório através da coleta de lixo, que irá limpar arquivos desnecessários e otimizá-los.
+
+###### git archive
+O comando git archive permite que um usuário crie um arquivo zip ou tar contendo os componentes de uma única árvore de repositório. 
+
+###### git prune
+Através do comando git prune, os objetos que não têm ponteiros de entrada são excluídos.
+
+###### git fsck
+Para executar uma verificação de integridade do sistema de arquivos git, use o comando git fsck.
+
+###### git rebase
+O comando git rebase é usado para reaplicação de compromissos em outro ramo. 
+
+-----
+
+## Comandos básicos para gerenciamento de arquivos e pastas no terminal do Linux
+
+###### Listar e criar arquivos - touch
+Para criar um arquivo vazio, usa-se o comando _touch_ seguido do nome do arquivo a ser criado, como em _touch impacta.txt_.
+
+###### Criar diretórios - mkdir
+Quando precisar recorrer a pastas para organizar melhor seus arquivos, basta criá-las com o comando mkdir. Uma pasta chamada "impacta",
+por exemplo, poderia ser criada com o comando _mkdir impacta_.
+
+###### Copiar arquivos e diretórios - cp
+Para copiar arquivos ou diretórios, usamos o comando cp. A sintaxe básica é: __cp pasta/arquivo pasta/__, onde _pasta_ é o caminho do arquivo 
+a ser copiado e _arquivo_ é o nome dele. Não se esqueça da extensão, caso exista.
+Você também pode usar o mesmo comando com diretórios. Porém, caso existam arquivos ou subdiretórios dentro dele, será necessário incluir a 
+opção -R ao executá-lo, caso contrário, todo o conteúdo será ignorado: cp -R diretório/ destino/.
+
+###### Mover e renomear arquivos e diretórios - mv
+O comando mv pode ser usado de duas formas diferentes: para mover e renomear arquivos e diretórios.
+
+###### Apagar arquivos e diretórios - rm
+Use o comando rm para apagar um arquivo: rm nomedoarquivo. Se quiser apagar um diretório, será necessário inserir o parâmetro -d ou, então, 
+usar o comando rmdir seguido do nome do diretório. Porém, um aviso: para ambos os casos, o diretório deve estar vazio. Caso existam arquivos 
+dentro dele que também devem ser apagados, utilize o comando rm -r diretorio/.
+
+###### Procurar arquivos - find
+Para procurar arquivos, é possível fazê-lo com o comando find. Para isso, use como parâmetros um ponto de partida 
+para a busca no sistema de arquivos e o nome do arquivo precedido pela opção -name. Para buscar o arquivo "impacta.txt" 
+dentro do diretório "/home", execute: find /home -name impacta.txt.
+
+
+
